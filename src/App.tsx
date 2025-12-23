@@ -1,25 +1,50 @@
 import React from 'react';
 import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { CartProvider } from './context/CartContext';
+
+import Header from './components/layout/Header';
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+
+import ScrollToTop from './utils/ScrollToTop';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-Wacth"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <CartProvider>
+          <Router>
+              {/* Reset scroll mỗi khi đổi route */}
+              <ScrollToTop />
+
+              <div className="app">
+                  <Header />
+
+                  <main className="main-content">
+                      <Routes>
+                          {/* Home */}
+
+                          {/*{Auth}*/}
+
+                          {/* Products */}
+
+                          {/* Categories */}
+
+                          {/* Brands */}
+
+                          {/* Cart & Checkout */}
+
+                          {/* Accessories */}
+
+                          {/* Fallback */}
+
+                      </Routes>
+                  </main>
+
+                  <Footer />
+              </div>
+          </Router>
+      </CartProvider>
   );
 }
 
