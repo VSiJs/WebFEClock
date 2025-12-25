@@ -6,7 +6,6 @@ import { CartProvider } from './context/CartContext';
 import Header from './components/layout/Header';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
-import Home from './pages/Home';
 
 import ScrollToTop from './utils/ScrollToTop';
 import './App.css';
@@ -24,7 +23,7 @@ function App() {
                   <main className="main-content">
                       <Routes>
                           {/* Home */}
-                          <Route path="/" element={<Home />} />
+
                           {/*{Auth}*/}
 
                           {/* Products */}
