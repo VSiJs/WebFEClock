@@ -438,3 +438,139 @@
     background: linear-gradient(135deg, #b8941f 0%, #d4af37 100%);
 }
 
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .brand-logo-large {
+        flex: 0 0 150px;
+        height: 150px;
+        font-size: 3.5rem;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .heritage-highlights {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .specialties-grid {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .brand-hero {
+        padding: 60px 0;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .brand-logo-large {
+        flex: 0 0 auto;
+        width: 140px;
+        height: 140px;
+        font-size: 3rem;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .brand-stats {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .stat {
+        padding: 10px 16px;
+    }
+
+    .section-title {
+        font-size: 1.9rem;
+    }
+
+    .heritage-highlights {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+        margin: 40px auto 0;
+    }
+
+    .brand-products .section-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .story-content h2 {
+        font-size: 1.9rem;
+    }
+
+    .cta-content h2 {
+        font-size: 1.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .brand-logo-large {
+        width: 120px;
+        height: 120px;
+        font-size: 2.5rem;
+    }
+
+    .hero-title {
+        font-size: 1.9rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .brand-stats {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stat {
+        width: 100%;
+        max-width: 250px;
+        justify-content: center;
+    }
+
+    .section-title {
+        font-size: 1.7rem;
+    }
+
+    .highlight {
+        padding: 25px 20px;
+    }
+
+    .specialty-card {
+        padding: 25px 20px;
+    }
+
+    .story-content h2 {
+        font-size: 1.7rem;
+    }
+
+    .cta-content h2 {
+        font-size: 1.7rem;
+    }
+
+    .cta-button {
+        padding: 14px 30px;
+        font-size: 1rem;
+    }
+}
