@@ -119,7 +119,7 @@
 }
 
 /* Import SearchBar CSS */
-@import url('../../../watchstore/src/pages/SearchBar.css');
+@import url('../../../../watch/src/pages/SearchBar.css');
 
 /* Header Actions */
 .header-actions {
