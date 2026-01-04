@@ -3,8 +3,7 @@ import { useParams, useLocation, useNavigate } from 'react-router-dom';
 import { FaFilter, FaSort, FaThLarge, FaList, FaTimes, FaArrowLeft } from 'react-icons/fa';
 import ProductList from '../components/product/ProductList';
 import ProductFilter from '../components/product/ProductFilter';
-import '../../../../../WebstormProjects/watch/src/pages/Products.css';
-import {colors} from "@mui/material";
+import './Products.css';
 
 const Products = () => {
     const { category } = useParams();
