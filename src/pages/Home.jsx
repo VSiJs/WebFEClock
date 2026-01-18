@@ -62,7 +62,7 @@ const Home = () => {
                     price: 985000000,
                     category: "luxury",
                     brand: "Patek Philippe",
-                    image: "https://images.unsplash.com/photo-1594576722512-582d5577dc56?w=800&q=80",
+                    image: "https://images.unsplash.com/photo-1600897425543-5369a38bd193?w=800&q=80",
                     description: "Siêu phẩm đồng hồ thể thao đẳng cấp",
                     stock: 1,
                     rating: 5.0,
@@ -77,7 +77,7 @@ const Home = () => {
     }, []);
 
     const categories = [
-        { id: 'luxury', name: 'Đồng hồ Cao cấp', count: 12, image: 'https://images.unsplash.com/photo-1594576722512-582d5577dc56?w=400&q=80' },
+        { id: 'luxury', name: 'Đồng hồ Cao cấp', count: 12, image: 'https://images.unsplash.com/photo-1548169874-53e85f753f1e?w=400&q=80' },
         { id: 'sports', name: 'Đồng hồ Thể thao', count: 18, image: 'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=400&q=80' },
         { id: 'classic', name: 'Đồng hồ Cổ điển', count: 15, image: 'https://images.unsplash.com/photo-1548169874-53e85f753f1e?w=400&q=80' },
         { id: 'smart', name: 'Đồng hồ Thông minh', count: 8, image: 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=400&q=80' },
