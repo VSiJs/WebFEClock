@@ -25,9 +25,9 @@ const ProductDetail = () => {
         brand: "Rolex",
         images: [
             "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?w=1200&q=80",
-            "https://images.unsplash.com/photo-1547996160-81c6be6c3cc7?w=1200&q=80",
+            "https://i.pinimg.com/736x/7f/7d/a4/7f7da48b4bca692476b3deaaaa06af04.jpg?w=1200&q=80",
             "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=1200&q=80",
-            "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=1200&q=80",
+            "https://i.pinimg.com/736x/5d/30/df/5d30dfd221700bb0af2dd54be5a508d3.jpg?w=1200&q=80",
         ],
         description: "Rolex Submariner Date là biểu tượng của đồng hồ lặn cao cấp. Với thiết kế cổ điển không bao giờ lỗi thời, chiếc đồng hồ này kết hợp giữa vẻ đẹp truyền thống và công nghệ hiện đại.",
         detailedDescription: `
@@ -68,7 +68,7 @@ const ProductDetail = () => {
             id: 2,
             name: "Omega Seamaster Diver 300M",
             price: 285000000,
-            image: "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=400&q=80",
+            image: "https://images.unsplash.com/photo-1691865179028-1729b766a5cd?w=400&q=80",
             brand: "Omega",
             rating: 4.8,
         },

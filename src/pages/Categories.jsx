@@ -10,7 +10,7 @@ const Categories = () => {
             name: 'Đồng hồ Cao cấp',
             description: 'Những siêu phẩm từ các thương hiệu hàng đầu thế giới',
             count: 15,
-            image: 'https://images.unsplash.com/photo-1594576722512-582d5577dc56?w=800&q=80',
+            image: 'https://images.unsplash.com/photo-1620625515032-6ed0c1790c75?w=800&q=80',
             icon: <FaGem />,
             brands: ['Rolex', 'Patek Philippe', 'Audemars Piguet']
         },
@@ -62,7 +62,7 @@ const Categories = () => {
     ];
 
     const featuredBrands = [
-        { id: 'rolex', name: 'Rolex', products: 25, image: 'https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?w=400&q=80' },
+        { id: 'rolex', name: 'Rolex', products: 25, image: 'https://images.unsplash.com/photo-1620625515032-6ed0c1790c75?w=400&q=80' },
         { id: 'omega', name: 'Omega', products: 18, image: 'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=400&q=80' },
         { id: 'cartier', name: 'Cartier', products: 12, image: 'https://images.unsplash.com/photo-1548169874-53e85f753f1e?w=400&q=80' },
         { id: 'patek', name: 'Patek Philippe', products: 8, image: 'https://images.unsplash.com/photo-1594576722512-582d5577dc56?w=400&q=80' },

@@ -45,7 +45,7 @@ const Brands = () => {
             origin: 'Geneva, Switzerland',
             description: 'Bậc thầy của nghệ thuật chế tác đồng hồ phức tạp, tạo ra những kiệt tác để đời.',
             logo: 'PP',
-            heroImage: 'https://images.unsplash.com/photo-1594576722512-582d5577dc56?w=1200&q=80',
+            heroImage: 'https://images.unsplash.com/photo-1600897425543-5369a38bd193?w=1200&q=80',
             products: 8,
             specialties: ['Nautilus', 'Aquanaut', 'Calatrava', 'Grand Complications']
         },
@@ -56,7 +56,7 @@ const Brands = () => {
             origin: 'Le Brassus, Switzerland',
             description: 'Nhà tiên phong trong thiết kế đồng hồ thể thao cao cấp với Royal Oak làm biểu tượng.',
             logo: 'AP',
-            heroImage: 'https://images.unsplash.com/photo-1553062407-98feb7a5f78c?w=1200&q=80',
+            heroImage: 'https://i.pinimg.com/736x/fa/4c/f5/fa4cf5c2d4778094a1bb6f6b6f1355de.jpg?w=1200&q=80',
             products: 6,
             specialties: ['Royal Oak', 'Royal Oak Offshore', 'Millenary', 'Jules Audemars']
         },
