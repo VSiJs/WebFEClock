@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WebFEClock/static/css/main.59fe6207.css",
+    "main.js": "/WebFEClock/static/js/main.daf3da5f.js",
+    "static/js/453.d75f2813.chunk.js": "/WebFEClock/static/js/453.d75f2813.chunk.js",
+    "index.html": "/WebFEClock/index.html",
+    "main.59fe6207.css.map": "/WebFEClock/static/css/main.59fe6207.css.map",
+    "main.daf3da5f.js.map": "/WebFEClock/static/js/main.daf3da5f.js.map",
+    "453.d75f2813.chunk.js.map": "/WebFEClock/static/js/453.d75f2813.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59fe6207.css",
+    "static/js/main.daf3da5f.js"
+  ]
+}
